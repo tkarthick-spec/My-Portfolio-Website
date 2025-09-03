@@ -262,10 +262,10 @@ h3 {
     font-size: 0.9rem;
   }
 
-  nav a img {
+  /* nav a img {
     width: 35px;
     height: 35px;
-  }
+  } */
 
   section {
     padding: 20px 10px;
@@ -279,4 +279,26 @@ h3 {
     padding: 15px;
   }
 }
+/* Default nav image size */
+nav a img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Tablet (up to 768px) */
+@media (max-width: 768px) {
+  nav a img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Mobile (up to 480px) */
+@media (max-width: 480px) {
+  nav a img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
 
