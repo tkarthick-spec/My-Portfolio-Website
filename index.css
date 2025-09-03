@@ -243,7 +243,7 @@ h3 {
 }
 
 /* Mobile (up to 480px) */
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   header h1 {
     font-size: 1.6rem;
   }
@@ -260,14 +260,14 @@ h3 {
 
   nav a {
     font-size: 0.9rem;
-  }
+  } */
 
   /* nav a img {
     width: 35px;
     height: 35px;
   } */
 
-  section {
+  /* section {
     padding: 20px 10px;
   }
 
@@ -278,7 +278,7 @@ h3 {
   .card {
     padding: 15px;
   }
-}
+} */
 /* Default nav image size */
 nav a img {
   width: 50px;
